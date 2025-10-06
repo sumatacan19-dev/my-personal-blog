@@ -1,0 +1,106 @@
+
+  /* Genel ayarlar */
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 2;
+  background: white;
+  color: #0e0e0e;
+  font-family: "Fjalla One", sans-serif;
+}
+
+.navlink{
+  border: 3px solid pink;
+  border-radius: 7px;
+  padding: 10px 20px;
+  transition:all 0.4s linear;
+  display: inline-block;
+  
+}
+
+.navlink:hover{
+  background-color: pink;
+  color: white;
+  transform: scale(1.1);
+}
+
+/* Navbar */
+nav {
+
+  padding: 20px 0px; 
+  position: sticky;
+  top: 0; 
+background-color: white;
+z-index:50;
+}
+
+nav ul {
+  display: flex;
+  list-style: none; 
+  justify-content: center;
+  margin: 10px;
+  padding: 0;
+ 
+}
+
+nav ul li {
+  margin:0 15px;  
+}
+
+nav ul li a {
+  color: rgb(11, 3, 16); 
+  text-decoration: none; 
+  font-weight: bold; 
+    border: 2px solid pink;
+    border-radius: 2px;
+}
+
+nav ul li a:hover {
+  text-decoration: underline; 
+}
+
+
+.section {
+  max-width: 800px;   
+  margin: 40px auto; 
+  padding: 20px; 
+  background: white;
+  border-radius: 8px;   
+ 
+}
+
+.section h1, .section h2 {
+  color:black; 
+}
+
+
+footer {
+  text-align: center; 
+  padding: 15px;  
+  background:gray; 
+  color: rgb(23, 22, 22); 
+} 
+.center{
+  display: flex;
+  justify-content: center;
+}
+.frame{
+  width: 200px;
+  height: 200px;
+  border-radius:20px;
+}
+
+
+#photo{
+width:100%;
+height:100%;
+object-fit: cover;
+border-radius: 50%;
+transition:transform 0.4s linear;
+}
+#photo:hover{
+  transform: scale(1.1);
+}
+footer{
+  background-color: white;
+}
